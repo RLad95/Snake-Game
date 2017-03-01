@@ -1,0 +1,1622 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\a5ravi\Desktop\MTE241 P4\Snake.uvproj
+Project File Date:  07/14/2016
+
+<h2>Output:</h2>
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(30): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(163): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(217): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(226): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(281): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(304): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(304): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(378): warning:  #111-D: statement is unreachable
+snake_game.c(409): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(386): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(387): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(388): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(389): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(389): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8076 RO-data=6580 RW-data=2444 ZI-data=3580  
+".\Flash\Blinky.axf" - 0 Error(s), 18 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(30): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(390): warning:  #111-D: statement is unreachable
+snake_game.c(421): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(398): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(399): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(400): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8132 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 18 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(30): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(381): error:  #268: declaration may not appear after executable statement in block
+snake_game.c(381): error:  #67: expected a "}"
+snake_game.c(406): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(383): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(384): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(385): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val_" was declared but never referenced
+Target not created
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(381): error:  #268: declaration may not appear after executable statement in block
+snake_game.c(381): error:  #67: expected a "}"
+snake_game.c(406): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(383): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(384): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(385): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val_" was declared but never referenced
+Target not created
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(390): warning:  #111-D: statement is unreachable
+snake_game.c(421): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(398): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(399): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(400): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8132 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(375): warning:  #111-D: statement is unreachable
+snake_game.c(406): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(383): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(384): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(385): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8132 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(316): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(375): warning:  #111-D: statement is unreachable
+snake_game.c(406): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(383): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(384): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(385): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8124 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(336): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(336): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(395): warning:  #111-D: statement is unreachable
+snake_game.c(426): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(403): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8108 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(30): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(392): warning:  #111-D: statement is unreachable
+snake_game.c(423): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(400): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8108 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 18 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(392): warning:  #111-D: statement is unreachable
+snake_game.c(423): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(400): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8108 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(218): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(227): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(282): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(332): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(332): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(391): warning:  #111-D: statement is unreachable
+snake_game.c(422): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(399): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(400): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8152 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(81): error:  #77-D: this declaration has no storage class or type specifier
+snake_game.c(81): error:  #65: expected a ";"
+snake_game.c(112): warning:  #12-D: parsing restarts here after previous syntax error
+snake_game.c(176): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(210): error:  #20: identifier "snake_bitmap" is undefined
+snake_game.c(230): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(239): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(254): error:  #20: identifier "snake_bitmap" is undefined
+snake_game.c(271): error:  #20: identifier "snake_bitmap" is undefined
+snake_game.c(282): error:  #20: identifier "snake_bitmap" is undefined
+snake_game.c(294): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(344): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(344): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(403): warning:  #111-D: statement is unreachable
+snake_game.c(434): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(411): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(412): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(414): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(414): warning:  #177-D: variable "ad_val_" was declared but never referenced
+Target not created
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(392): warning:  #111-D: statement is unreachable
+snake_game.c(423): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(400): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8152 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(155): error:  #20: identifier "LC_GPIO2" is undefined
+snake_game.c(158): error:  #20: identifier "LC_GPIOINT" is undefined
+snake_game.c(160): warning:  #940-D: missing return statement at end of non-void function "waitForButton"
+snake_game.c(174): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(228): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(237): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(292): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(342): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(342): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(401): warning:  #111-D: statement is unreachable
+snake_game.c(432): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(409): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(410): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(411): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(412): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(412): warning:  #177-D: variable "ad_val_" was declared but never referenced
+Target not created
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(166): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(220): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(229): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(284): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(334): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(334): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(393): warning:  #111-D: statement is unreachable
+snake_game.c(424): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(401): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8152 RO-data=6580 RW-data=2448 ZI-data=3584  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Build target 'LPC1768 Flash'
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(393): warning:  #111-D: statement is unreachable
+snake_game.c(299): warning:  #177-D: variable "int0Button" was declared but never referenced
+snake_game.c(424): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(401): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8160 RO-data=6580 RW-data=2464 ZI-data=3560  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(393): warning:  #111-D: statement is unreachable
+snake_game.c(299): warning:  #177-D: variable "int0Button" was declared but never referenced
+snake_game.c(424): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(401): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8160 RO-data=6580 RW-data=2464 ZI-data=3560  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(294): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(335): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(335): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(395): warning:  #111-D: statement is unreachable
+snake_game.c(426): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(403): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8180 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(294): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(397): warning:  #111-D: statement is unreachable
+snake_game.c(428): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(405): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8188 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(294): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(297): error:  #20: identifier "init" is undefined
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(397): warning:  #111-D: statement is unreachable
+snake_game.c(428): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(405): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val_" was declared but never referenced
+Target not created
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(338): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(338): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(398): warning:  #111-D: statement is unreachable
+snake_game.c(429): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(406): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(409): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(409): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8200 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(338): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(338): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(398): warning:  #111-D: statement is unreachable
+snake_game.c(429): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(406): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(409): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(409): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8200 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(339): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(339): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(399): warning:  #111-D: statement is unreachable
+snake_game.c(430): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(407): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(409): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(410): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(410): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8212 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(339): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(339): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(399): warning:  #111-D: statement is unreachable
+snake_game.c(430): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(407): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(409): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(410): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(410): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8212 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(339): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(339): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(399): warning:  #111-D: statement is unreachable
+snake_game.c(430): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(407): warning:  #177-D: variable "joy_stick_reading" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(409): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(410): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(410): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8212 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(397): warning:  #111-D: statement is unreachable
+snake_game.c(427): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(405): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8188 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(308): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(366): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(366): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(426): warning:  #111-D: statement is unreachable
+snake_game.c(456): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(434): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(435): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(436): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(436): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8392 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(308): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(366): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(366): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(426): warning:  #111-D: statement is unreachable
+snake_game.c(456): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(434): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(435): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(436): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(436): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8392 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(308): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(364): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(364): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(424): warning:  #111-D: statement is unreachable
+snake_game.c(454): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(432): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(433): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(434): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(434): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8384 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(308): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(364): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(364): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(424): warning:  #111-D: statement is unreachable
+snake_game.c(454): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(432): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(433): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(434): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(434): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8384 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(308): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(363): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(363): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(423): warning:  #111-D: statement is unreachable
+snake_game.c(453): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(431): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(432): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(433): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(433): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8360 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(312): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(367): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(367): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(427): warning:  #111-D: statement is unreachable
+snake_game.c(457): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(435): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(436): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(437): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(437): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8372 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(312): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(367): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(367): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(427): warning:  #111-D: statement is unreachable
+snake_game.c(457): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(435): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(436): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(437): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(437): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8372 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8372 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 2 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(314): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(369): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(369): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(429): warning:  #111-D: statement is unreachable
+snake_game.c(459): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(437): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(438): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(439): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(439): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8376 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(314): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(369): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(369): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(429): warning:  #111-D: statement is unreachable
+snake_game.c(459): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(437): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(438): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(439): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(439): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8376 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(314): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(369): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(369): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(429): warning:  #111-D: statement is unreachable
+snake_game.c(459): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(437): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(438): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(439): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(439): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8376 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(219): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(228): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(295): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(314): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(403): warning:  #111-D: statement is unreachable
+snake_game.c(433): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(411): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(412): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8284 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(220): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(229): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(284): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(296): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(315): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(403): warning:  #111-D: statement is unreachable
+snake_game.c(433): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(411): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(412): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8288 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(220): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(229): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(284): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(296): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(315): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(403): warning:  #111-D: statement is unreachable
+snake_game.c(433): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(411): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(412): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8288 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(220): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(229): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(284): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(296): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(315): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(403): warning:  #111-D: statement is unreachable
+snake_game.c(433): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(411): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(412): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8288 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(220): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(229): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(284): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(296): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(315): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(343): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(403): warning:  #111-D: statement is unreachable
+snake_game.c(433): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(411): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(412): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(413): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8288 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(214): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(223): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(278): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(290): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(309): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(395): warning:  #111-D: statement is unreachable
+snake_game.c(425): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(403): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8288 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(214): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(223): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(278): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(290): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(309): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(395): warning:  #111-D: statement is unreachable
+snake_game.c(425): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(403): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8288 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(214): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(223): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(278): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(291): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(313): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(340): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(340): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(398): warning:  #111-D: statement is unreachable
+snake_game.c(428): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(406): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(214): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(223): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(278): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(291): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(313): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(340): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(340): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(398): warning:  #111-D: statement is unreachable
+snake_game.c(428): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(406): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(165): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(214): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(223): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(278): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(291): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(313): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(340): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(340): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(398): warning:  #111-D: statement is unreachable
+snake_game.c(428): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(406): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(407): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(408): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(163): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(212): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(221): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(276): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(289): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(311): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(338): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(338): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(396): warning:  #111-D: statement is unreachable
+snake_game.c(426): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(404): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling RTX_Conf_CM.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling ADC.c...
+compiling KBD.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+KBD.c(15): warning:  #9-D: nested comment is not allowed
+KBD.c(40): warning:  #1-D: last line of file ends without a newline
+compiling RTX_Conf_CM.c...
+compiling system_LPC17xx.c...
+compiling Serial.c...
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(163): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(212): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(221): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(276): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(289): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(311): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(337): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(395): warning:  #111-D: statement is unreachable
+snake_game.c(425): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(403): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(404): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(161): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(186): error:  #147: declaration is incompatible with "OS_TID moveSnake" (declared at line 38)
+snake_game.c(201): error:  #147: declaration is incompatible with "OS_TID foodConsume" (declared at line 40)
+snake_game.c(210): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(219): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(274): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(278): error:  #147: declaration is incompatible with "OS_TID gameOver" (declared at line 39)
+snake_game.c(287): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(309): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(335): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(335): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(393): warning:  #111-D: statement is unreachable
+snake_game.c(421): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(401): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(402): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(403): warning:  #177-D: variable "ad_val_" was declared but never referenced
+Target not created
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(164): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(213): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(222): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(277): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(290): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(312): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(338): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(338): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(396): warning:  #111-D: statement is unreachable
+snake_game.c(424): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(404): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(405): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(406): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(157): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(206): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(215): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(270): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(305): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(331): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(331): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(389): warning:  #111-D: statement is unreachable
+snake_game.c(417): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(397): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(398): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(399): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(399): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(157): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(206): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(215): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(270): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(283): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(305): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(331): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(331): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(389): warning:  #111-D: statement is unreachable
+snake_game.c(417): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(397): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(398): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(399): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(399): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(159): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(208): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(217): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(272): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(285): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(307): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(391): warning:  #111-D: statement is unreachable
+snake_game.c(419): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(399): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(400): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(401): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(160): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(211): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(220): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(276): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(289): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(311): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(390): warning:  #111-D: statement is unreachable
+snake_game.c(418): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(398): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(399): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(400): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(400): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8312 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(160): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(211): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(220): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(276): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(289): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(311): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(335): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(335): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(378): warning:  #111-D: statement is unreachable
+snake_game.c(329): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(331): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(331): warning:  #177-D: variable "ad_val_" was declared but never referenced
+snake_game.c(406): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(386): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(387): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(388): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(388): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8236 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 20 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(160): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(211): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(220): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(276): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(289): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(311): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(376): warning:  #111-D: statement is unreachable
+snake_game.c(404): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(384): warning:  #177-D: variable "ad_avg" was declared but never referenced
+snake_game.c(385): warning:  #177-D: variable "oldDirec" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val" was declared but never referenced
+snake_game.c(386): warning:  #177-D: variable "ad_val_" was declared but never referenced
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8236 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 17 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(160): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(211): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(220): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(276): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(289): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(311): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(376): warning:  #111-D: statement is unreachable
+snake_game.c(400): warning:  #223-D: function "rand" declared implicitly
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8232 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(160): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(211): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(220): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(276): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(289): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(311): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(333): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(377): warning:  #111-D: statement is unreachable
+snake_game.c(401): warning:  #223-D: function "rand" declared implicitly
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8232 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 13 Warning(s).
+Build target 'LPC1768 Flash'
+compiling snake_game.c...
+KBD.h(15): warning:  #1-D: last line of file ends without a newline
+snake_game.c(163): warning:  #68-D: integer conversion resulted in a change of sign
+snake_game.c(214): warning:  #223-D: function "getRand" declared implicitly
+snake_game.c(223): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(279): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(292): warning:  #223-D: function "INT0_Get" declared implicitly
+snake_game.c(314): warning:  #223-D: function "rand" declared implicitly
+snake_game.c(336): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(336): warning:  #186-D: pointless comparison of unsigned integer with zero
+snake_game.c(380): warning:  #111-D: statement is unreachable
+snake_game.c(403): warning:  #223-D: function "rand" declared implicitly
+linking...
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\rtx_conf_cm.o ignored.
+.\Flash\Blinky.axf: Warning: L6304W: Duplicate input file .\flash\system_lpc17xx.o ignored.
+Program Size: Code=8232 RO-data=6580 RW-data=2468 ZI-data=3556  
+".\Flash\Blinky.axf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\a5ravi\\Desktop\\MTE241 P4\\Flash\\Blinky.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.

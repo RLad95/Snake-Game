@@ -1,0 +1,14 @@
+.\Flash\snake_game.o: snake_game.c
+.\Flash\snake_game.o: C:\Software\Keil\ARM\RV31\INC\RTL.h
+.\Flash\snake_game.o: C:\Software\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H
+.\Flash\snake_game.o: C:\Software\Keil\ARM\CMSIS\Include\core_cm3.h
+.\Flash\snake_game.o: C:\Software\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Flash\snake_game.o: C:\Software\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\Flash\snake_game.o: C:\Software\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\Flash\snake_game.o: C:\Software\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\Flash\snake_game.o: GLCD.h
+.\Flash\snake_game.o: LED.h
+.\Flash\snake_game.o: C:\Software\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\Flash\snake_game.o: Serial.h
+.\Flash\snake_game.o: KBD.h
+.\Flash\snake_game.o: ADC.h
